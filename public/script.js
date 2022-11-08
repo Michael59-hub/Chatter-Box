@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000");
+const socket = io("https://chatter-bogx.herokuapp.com");
 
 const form = document.getElementById("input");
 const messageInput = document.getElementById("msg");
