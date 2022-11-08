@@ -1,5 +1,5 @@
 {
-  "name": "ChatterBox",
+  "name": "chatterbox",
   "version": "1.0.0",
   "description": "Making a texting app",
   "main": "index.js",
