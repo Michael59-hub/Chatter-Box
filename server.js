@@ -24,4 +24,8 @@ app.get("/", (req,res)=>{
 })
 
 
-server.listen(3000);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 5000;
+}
+server.listen(port);
